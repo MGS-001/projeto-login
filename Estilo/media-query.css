@@ -24,8 +24,8 @@
       }
 
       #login{
-          width: 618px;
-          height: 280px;
+          width: 620px;
+          height: 290px;
       }
      #imagem{
         float: left;
@@ -36,6 +36,25 @@
 
      #formulario{
         text-align: center;
+     }
+
+     form > input[type="submit"]{
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+     }
+
+     .botao{
+        float: right;
+        width: 50%;
+        display: block;
+        margin: 0px 5px;
+     }
+
+     .campo{
+      float: right;
+      width: 50%;
+      margin: 5px ;
      }
    }
 
@@ -59,4 +78,27 @@
      #formulario{
         padding: 0px;
      }
-  }
+
+     #formulario p{
+      font-size: 1.2em;
+     }
+      
+     .campo{
+      float: left;
+      width: 50%;
+      margin: 0px 10px 20px 10px;
+     }
+
+      form > input[type="submit"]{
+        width: 50%;
+        display: block;
+        margin: 10px;
+     }
+
+     .botao{
+      float: left;
+      width: 50%;
+      display: block;
+      margin: 12px;
+     }
+   }

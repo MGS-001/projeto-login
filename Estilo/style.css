@@ -7,6 +7,7 @@
     --cor02:#536C91;
     --cor03:#4C959B;
     --cor04:#94CFCD;
+    --cor05:#2D6462;
 }
 
 *{
@@ -32,7 +33,7 @@ main{
     left: 50%;
     top: 50%;
     width: 250px;
-    height: 500px;
+    height: 510px;
     position: absolute;
     border-radius: 20px;
     background-color: white;
@@ -57,4 +58,58 @@ main{
     padding: 10px;
     font-size: .85em;
 }
+
+form  label{
+    display: none;
+}
+
+form input{
+
+}
+
+.campo{
+    width: 98%;
+    padding: 1px;
+    color: white;
+    border-radius: 7px;
+    margin: 0px auto 10px auto;
+    background-color: var(--cor01);
+}
+
+form > input[type="submit"]{
+    width: 97%;
+    padding: 6px;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin: 5px 5px 7px;
+    background-color: var(--cor03);
+}
+
+form > input[type="submit"]:hover{
+    background-color: var(--cor05);
+}
+
+.botao span{
+   font-size: 0.9em;
+}
+
+.botao{
+    width: 97%;
+    margin: auto;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    color: var(--cor05);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid var(--cor05);
+}
+
+.botao:hover{
+    background-color: var(--cor04);
+}
+
 
